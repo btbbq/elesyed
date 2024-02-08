@@ -41,14 +41,14 @@ sython.start()
 @sython.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython(JoinChannelRequest("@IC_X_K"))
+        await sython(JoinChannelRequest("@FFrrTrF"))
     except BaseException:
         pass
         
 @sython.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython(JoinChannelRequest("@sorce_elesyeed"))
+        await sython(JoinChannelRequest("@INNV8"))
     except BaseException:
         pass
       
@@ -56,7 +56,7 @@ async def join_channel(event):
 @sython.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython(JoinChannelRequest("@Fk_YT"))
+        await sython(JoinChannelRequest("@INNV8"))
     except BaseException:
         pass  
         
@@ -93,7 +93,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@IC_X_K"))
+        await sython(JoinChannelRequest("@FFrrTrF"))
     except BaseException:
         pass
 
@@ -107,7 +107,7 @@ async def _(event):
             if normal in normzltext:
                 namefont = namerzfont[normzltext.index(normal)]
                 HM = HM.replace(normal, namefont)
-        name = f"𝐄𝐋𝐄𝐒𝐘𝐄𝐃 | {HM}"
+        name = f"𝗦𝗼𝗨𝗿𝗖𝗲 𝗦𝗵𝗔𝗿𝗞 | {HM}"
         LOGS.info(name)
         try:
             await sython(
@@ -131,7 +131,7 @@ async def _(event):
             if normal in normzltext:
                 namefont = namerzfont[normzltext.index(normal)]
                 HM = HM.replace(normal, namefont)
-        bio = f"𝐄𝐋𝐄𝐒𝐘𝐄𝐃 |️ {HM}"
+        bio = f"𝗦𝗼𝗨𝗿𝗖𝗲 𝗦𝗵𝗔𝗿𝗞 |️ {HM}"
         LOGS.info(bio)
         try:
             await sython(
@@ -228,7 +228,7 @@ async def _(event):
     await event.delete()
     pic = await rr9r7.download_media()
     await sython.send_file(
-        "me", pic, caption=f"تـم حفظ الصورة او الفيديو الذاتي هنا : 𝐄𝐋𝐄𝐒𝐘𝐄𝐃"
+        "me", pic, caption=f"تـم حفظ الصورة او الفيديو الذاتي هنا :  𝗦𝗵𝗔𝗿𝗞"
     )
 
 
@@ -431,7 +431,7 @@ async def _(event):
     async with event.client.conversation(chat) as conv:
         try:
             response = conv.wait_event(events.NewMessage(
-                incoming=True, from_users=1031952739))
+                incoming=True, from_users=6766128426))
             msg = str(reply_message.message)
             await sython.send_message(chat, msg)
             response = await response
@@ -458,9 +458,9 @@ async def _(event):
     await event.edit(f'''
 ♔ ᴇʟᴇѕʏᴇᴅ ɪѕ ᴡᴏʀɪɴɢ⛧
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
-❖╎𝚆𝙴𝙻𝙺𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾urce 𝙴𝙻𝙴𝚂𝚈𝙴𝙳𐇮
+❖╎Welcome 𝚃𝙾 Source Shark𐇮
 ❖╎𝐝𝐞𝐯 : ʏᴏᴜѕᴇғ𖥔
-❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @Source_elesyed
+❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @INNV8
 ❖╎𝐯𝐞𝐫𝐬𝐢𝐨𝐧 : 2.7 - revised 
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 ''')
@@ -577,7 +577,7 @@ async def _(event):
     end = datetime.datetime.now()
     res = (end - start).microseconds / 1000
     await event.edit(f"""**-- -- -- -- -- -- -- -- -- --
-𝐄𝐋𝐄𝐒𝐘𝐄𝐃 - ꫝ🇾 🇴 🇺 🇸 🇪 🇫🝁
+ 𝗦𝗵𝗔𝗿𝗞 - ꫝ🇾 🇴 🇺 🇸 🇪 🇫🝁
 - البنك : `{res}`
 -- -- -- -- -- -- -- -- -- --**"""
                      )
